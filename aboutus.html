@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - AisLop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+
+    <style>
+        
+        body {
+            background-color: #f7e3e1;
+            padding-bottom: 50px; 
+            margin: 0; 
+        }
+
+        .ui.footer.segment {
+            position: fixed; 
+            bottom: 0;
+            left: 0;
+            right: 0; 
+            width: 100%; 
+            background-color: #f7e3e1 !important; 
+            z-index: 1000; 
+            padding: 10px 0;
+            margin: 0 !important; 
+            text-align: center;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+        }
+        .ui_container {
+            text-align: center;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            padding: 20px;
+            background-color: #f47da1;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .navbar .logo {
+            border-radius: 100%;
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            margin: 0; 
+            padding: 0; 
+        }
+
+        .menu li {
+            margin: 0 15px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #3b1d1d;
+            font-weight: bold; 
+            transition: border-bottom 0.3s ease; 
+        }
+
+        .menu a:hover {
+            border-bottom: 2px solid #d53778; 
+        }
+
+        
+        .ui.card .image {
+            height: 400px; 
+            overflow: hidden; 
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ui.card .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+            display: block; 
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <img class="logo" src="https://i.pinimg.com/474x/2b/eb/ac/2bebac798c7fc0cce4009f4e703cc3e3.jpg" alt="AisLop Logo">
+        <ul class="menu">
+          <li><a href="file:///D:/Semester%202/DESAIN%20WEBPEMROGRAMAN%20WEB/latihan/file2.html">Home</a></li>
+          <li><a href="#">About Us</a></li> 
+          <li><a href="products.html">Products</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="#join"></a>
+    </nav>
+
+    <div class="ui container" style="margin-top: 50px;">
+        <div class="ui segment">
+            <h1 class="ui center aligned header" style="color: #e91e63;">About Us</h1>
+            <p class="ui justified text">AisLop is a place where you can enjoy the deliciousness of premium cupcake with various unique flavors and high-quality ingredients. We believe that every bite brings happiness and warmth.</p>
+            <p class="ui justified text">Since our founding, we have been committed to delivering products that are not only delicious but also made with love and attention to detail. We prioritize quality, innovation, and customer satisfaction in every product we serve..</p>
+        </div>
+        
+        <h2 class="ui center aligned header" style="color: #e91e63;">Our Team</h2>
+        <div class="ui three column stackable grid">
+            <div class="column">
+                <div class="ui card">
+                    <div class="image">
+                        <img src="poto lita2.jpg" alt="Founder">
+                    </div>
+                    <div class="content">
+                        <a class="header">Karlita Agustin Wardhani</a>
+                        <div class="meta">
+                            <span class="date">Founder & CEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui card">
+                    <div class="image">
+                        <img src="poto estin.jpg" alt="Co-Founder">
+                    </div>
+                    <div class="content">
+                        <a class="header">Estin Dwi Prasetiaji</a>
+                        <div class="meta">
+                            <span class="date">Co-Founder & Marketing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui card">
+                    <div class="image">
+                        <img src="poto jeje.jpg" alt="Chef">
+                    </div>
+                    <div class="content">
+                        <a class="header">Jesica Wahyu Izati</a>
+                        <div class="meta">
+                            <span class="date">Head Chef</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</body>
+</html>
